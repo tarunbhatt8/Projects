@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashu.garduino.MovieFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Moisture:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/text2"/>
+
+    <EditText
+        android:id="@+id/textbox2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/text2"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="44dp"
+        android:width="100dp" />
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/graph"
+        android:layout_alignBottom="@+id/text2"
+        android:layout_marginBottom="120dp"/>
+</RelativeLayout>
